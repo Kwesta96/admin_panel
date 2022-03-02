@@ -67,7 +67,7 @@ export default function Product() {
                                 <input type="file" id='file' style={{ display: 'none' }} />
                             </label>
                         </div>
-                        <button className='productUpdateButton'>Update</button>
+                        <button className='productUpdateButton' disabled>Update</button>
                     </div>
                 </form>
             </div>

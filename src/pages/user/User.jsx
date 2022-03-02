@@ -77,7 +77,7 @@ export default function User() {
                                 <label htmlFor="file"><Publish className='userUpdateIcon' /></label>
                                 <input type="file" id='file' style={{ display: 'none' }} />
                             </div>
-                            <button className='userUpdateButton'>Update</button>
+                            <button className='userUpdateButton' disabled>Update</button>
                         </div>
                     </form>
                 </div>

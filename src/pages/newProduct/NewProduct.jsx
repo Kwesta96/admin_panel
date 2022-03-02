@@ -25,7 +25,7 @@ export default function NewProduct() {
                         <option value="No">No</option>
                     </select>
                 </div>                
-                <button className="newProductButton">Add Product</button>
+                <button className="newProductButton" disabled>Add Product</button>
             </form>
         </div>
     )
