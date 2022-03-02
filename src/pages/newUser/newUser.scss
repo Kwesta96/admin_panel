@@ -1,5 +1,6 @@
 .newUser{
     flex: 4;
+    padding: 20px;
 
     .newUserTitle{
  
@@ -8,10 +9,9 @@
     .newUserForm{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 10px;
 
         .newUserItem{
-            width: 400px;
+            width: 500px;
             display: flex;
             flex-direction: column;
             margin-top: 10px;
@@ -45,8 +45,22 @@
             }
 
             .newUserSelect{
-
+                height: 40px;
+                border: none;
+                border-radius: 5px;
             }
+        }
+
+        .newUserButton{
+            width: 200px;
+            border: none;
+            background: darkblue;
+            color: white;
+            padding: 7px 10px;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 30px;
         }
     }
 }
